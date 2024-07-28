@@ -1,7 +1,7 @@
 .App {
   width: 100vw;
   height: 100vh;
-  background: #fff;
+  background: #f4f2f2;
   color: #212121;
   font-family: "Open Sans", sans-serif;
   display: grid;
@@ -51,7 +51,7 @@ body {
 }
 
 .chat-window {
-  width: 300px;
+  width: 500px;
   height: 420px;
 }
 
@@ -188,4 +188,12 @@ body {
 }
 .hide {
   opacity: 0 !important;
+}
+.chat-image {
+  max-width: 150px; /* Limit the maximum width */
+  max-height: 150px; /* Limit the maximum height */
+  width: auto;      /* Allow responsive width */
+  height: auto;     /* Allow responsive height */
+  border-radius: 5px; /* Optional: Add some border radius */
+  object-fit: cover; /* Ensure the image fits within the bounds */
 }
